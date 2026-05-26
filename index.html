@@ -5,165 +5,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Nimantran - Premium Luxury Invitations</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     <style>
-        /* Exact High-End Wedding Card Paper Texture & Watercolor Canvas */
+        /* Exact Wedding Paper Canvas with Watercolor Clouds & Thread Texture */
         body { 
-            background-color: #FAF6EE; /* Premium Ivory Card Background */
-            color: #2D0B10; /* Deep Maroon Typography */
-            font-family: 'Georgia', serif;
+            background-color: #FAF5EC; 
+            color: #3D131A;
+            font-family: 'Playfair Display', serif;
         }
         
-        /* Realistic Paper Overlay & Soft Pink Watercolor Clouds */
-        .luxury-card-canvas {
-            background-color: #FAF6EE;
+        /* High-End Physical Wedding Card Paper Simulation */
+        .premium-wedding-canvas {
+            background-color: #FAF5EC;
             background-image: 
-                radial-gradient(circle at top left, rgba(243, 198, 205, 0.45) 0%, transparent 45%),
-                radial-gradient(circle at bottom right, rgba(243, 198, 205, 0.45) 0%, transparent 45%),
-                linear-gradient(to right, rgba(45, 11, 16, 0.02) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(45, 11, 16, 0.02) 1px, transparent 1px);
-            background-size: 100% 100%, 100% 100%, 16px 16px, 16px 16px;
+                /* Rose Pink Soft Watercolor Clouds on Top & Bottom corners */
+                radial-gradient(circle at 0% 0%, rgba(235, 171, 182, 0.45) 0%, transparent 40%),
+                radial-gradient(circle at 100% 100%, rgba(235, 171, 182, 0.45) 0%, transparent 40%),
+                /* Fine Handmade Cardboard Thread Lines */
+                linear-gradient(to right, rgba(166, 124, 30, 0.025) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(166, 124, 30, 0.025) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 14px 14px, 14px 14px;
         }
 
-        .royal-maroon-text {
-            color: #4A121A;
+        .font-royal-heading {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 2px;
         }
 
+        .font-calligraphy {
+            font-family: 'Great Vibes', cursive;
+        }
+
+        /* Royal Metallic Gold Text Shader */
         .luxury-gold-text {
-            background: linear-gradient(135deg, #A67C1E 0%, #D4AF37 30%, #B8860B 50%, #E6CA65 80%, #916212 100%);
+            background: linear-gradient(135deg, #9A7424 0%, #D8B257 25%, #F7E5A9 50%, #D8B257 75%, #84621A 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
         }
 
-        .royal-maroon-bg {
-            background: linear-gradient(135deg, #4A121A 0%, #6B1D27 50%, #330B10 100%);
-            box-shadow: 0 4px 15px rgba(74, 18, 26, 0.2);
+        /* Soft Rich Wine Red Button */
+        .royal-wine-bg {
+            background: linear-gradient(135deg, #4A121A 0%, #631923 50%, #300A10 100%);
+            box-shadow: 0 6px 20px rgba(74, 18, 26, 0.15);
+            border: 1px solid rgba(216, 178, 87, 0.3);
         }
 
-        /* Solid Off-White Box like a physical Invitation Card Plaque */
-        .premium-card-box {
+        /* Elegant Frame like a Real Invitation Plaque */
+        .invitation-card-frame {
             background: #FFFFFF;
-            border: 1px solid rgba(212, 175, 55, 0.4);
-            box-shadow: 0 8px 20px rgba(74, 18, 26, 0.05);
-            border-radius: 4px;
+            border: 1.5px solid rgba(154, 116, 36, 0.35);
+            outline: 6px solid #FFFFFF;
+            box-shadow: 0 15px 35px rgba(74, 18, 26, 0.07);
+            position: relative;
+        }
+
+        /* Subtle Corner Ornaments decoration */
+        .card-corner {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border: 2px solid #D8B257;
         }
     </style>
 </head>
-<body class="luxury-card-canvas antialiased min-h-screen">
+<body class="premium-wedding-canvas antialiased min-h-screen">
 
-    <header class="border-b border-[#D4AF37]/20 bg-[#FAF6EE]/95 sticky top-0 z-50 py-5 px-4 backdrop-blur-md">
+    <header class="border-b border-[#D8B257]/20 bg-[#FAF5EC]/90 sticky top-0 z-50 py-5 px-6 backdrop-blur-md">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="border border-[#D4AF37] w-10 h-10 flex items-center justify-center rounded-full text-[#A67C1E] text-base font-bold font-serif bg-white shadow-sm">DN</div>
-                <h1 class="text-2xl md:text-3xl font-serif font-bold tracking-wide royal-maroon-text">Digital Nimantran</h1>
+                <div class="border-2 border-[#D8B257] w-12 h-12 flex items-center justify-center rounded-full text-[#9A7424] text-lg font-bold font-royal-heading bg-white shadow-inner">DN</div>
+                <h1 class="text-2xl md:text-3xl font-royal-heading font-black tracking-wider text-[#4A121A]">Digital Nimantran</h1>
             </div>
-            <a href="https://wa.me/9779811546527" target="_blank" class="royal-maroon-bg text-white px-6 py-2.5 rounded font-bold hover:brightness-110 transition text-xs tracking-widest uppercase">Contact Us</a>
+            <a href="https://wa.me/9779811546527" target="_blank" class="royal-wine-bg text-white px-6 py-2.5 rounded font-royal-heading text-xs font-bold tracking-widest uppercase transition transform hover:scale-105">Contact Us</a>
         </div>
     </header>
 
     <section class="max-w-4xl mx-auto text-center px-4 py-24">
-        <span class="text-xs uppercase tracking-widest text-[#A67C1E] border border-[#D4AF37]/40 bg-white px-5 py-2 rounded-full font-semibold shadow-sm">Luxury Digital Invitations</span>
-        <h2 class="text-4xl md:text-6xl font-serif font-bold mt-8 leading-tight tracking-wide royal-maroon-text">
-            कागजको कार्ड अब पुरानो भयो, <br>
-            <span class="luxury-gold-text">निमन्त्रणा अब रोयल बनाउनुहोस्!</span>
-        </h2>
-        <p class="mt-6 text-[#4A121A]/80 text-lg max-w-2xl mx-auto font-serif italic font-light">विवाह, एनिभर्सरी, पास्नी, जन्मदिन र पसलको Grand Opening का लागि प्रिमियम डिजिटल फोटो कार्ड र एनिमेटेड भिडियोहरू।</p>
-        <div class="mt-12 flex flex-col sm:flex-row justify-center gap-5">
-            <a href="https://wa.me/9779811546527" target="_blank" class="royal-maroon-bg text-white px-8 py-4 rounded font-bold text-lg hover:brightness-110 transition flex items-center justify-center gap-3 shadow-md">
-                <i class="fab fa-whatsapp text-xl"></i> Order on WhatsApp
-            </a>
-            <a href="#services" class="border border-[#D4AF37] text-[#A67C1E] bg-white px-8 py-4 rounded font-bold text-lg hover:bg-neutral-50 transition tracking-wide shadow-sm">Our Services</a>
-        </div>
-    </section>
-
-    <section id="services" class="max-w-6xl mx-auto px-4 py-20 border-t border-[#D4AF37]/20">
-        <div class="text-center mb-16">
-            <h3 class="text-3xl md:text-4xl font-serif font-bold royal-maroon-text">हाम्रा सेवाहरू (Services)</h3>
-            <p class="text-[#4A121A]/70 mt-2 italic font-serif">हामीसँग उपलब्ध केही प्रिमियम र विशेष डिजिटल प्याकेजहरू</p>
+        <div class="inline-block text-xs uppercase tracking-[0.25em] text-[#9A7424] font-bold border-b-2 border-[#D8B257]/40 pb-2 mb-6 font-royal-heading">
+            Exclusive Digital Atelier
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="premium-card-box p-8 bg-white">
-                <div class="text-3xl text-[#A67C1E] mb-5"><i class="fas fa-image"></i></div>
-                <h4 class="text-2xl font-serif font-bold mb-3 royal-maroon-text">Digital E-Card</h4>
-                <p class="text-[#4A121A]/80 text-sm leading-relaxed">विवाह, पास्नी वा जन्मदिनका लागि १ पेजको उच्च क्वालिटीको आकर्षक फोटो निमन्त्रणा कार्ड।</p>
-                <div class="mt-6 pt-4 border-t border-neutral-100 text-xl font-bold text-[#A67C1E]">रु. ४९९/- देखि सुरु</div>
+        <h2 class="text-4xl md:text-6xl font-bold mt-4 leading-tight text-[#4A121A] font-serif">
+            कागजको कार्ड अब पुरानो भयो, <br>
+            <span class="text-5xl md:text-7xl block mt-4 font-calligraphy text-[#A67C1E] capitalize font-normal p-2">निमन्त्रणा अब रोयल बनाउनुहोस्!</span>
+        </h2>
+        
+        <p class="mt-8 text-[#4A121A]/80 text-xl max-w-2xl mx-auto italic font-serif leading-relaxed px-4">
+            विवाह, एनिभर्सरी, पास्नी, जन्मदिन र पसलको Grand Opening का लागि प्रिमियम डिजिटल फोटो कार्ड र एनिमेटेड भिडियोहरू।
+        </p>
+        
+        <div class="mt-14 flex flex-col sm:flex-row justify-center items-center gap-6">
+            <a href="https://wa.me/9779811546527" target="_blank" class="royal-wine-bg text-white px-10 py-4.5 rounded text-lg font-semibold tracking-wide transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3 w-full sm:w-auto">
+                <i class="fab fa-whatsapp text-2xl"></i> Order on WhatsApp
+            </a>
+            <a href="#services" class="border-2 border-[#9A7424] text-[#4A121A] bg-white/40 backdrop-blur-sm px-10 py-4 rounded text-lg font-bold tracking-wide hover:bg-white transition w-full sm:w-auto font-royal-heading text-sm">
+                Our Services
+            </a>
+        </div>
+    </section>
+
+    <section id="services" class="max-w-6xl mx-auto px-4 py-24 border-t border-[#D8B257]/20">
+        <div class="text-center mb-20">
+            <h3 class="text-3xl md:text-4xl font-royal-heading font-bold text-[#4A121A]">हाम्रा सेवाहरू</h3>
+            <div class="h-[1px] bg-gradient-to-r from-transparent via-[#D8B257] to-transparent mt-3 w-40 mx-auto"></div>
+            <p class="text-[#4A121A]/70 mt-3 italic text-base">हामीसँग उपलब्ध केही प्रिमियम र विशेष डिजिटल प्याकेजहरू</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="invitation-card-frame p-8 rounded-lg">
+                <div class="card-corner top-3 left-3 border-r-0 border-b-0"></div>
+                <div class="card-corner top-3 right-3 border-l-0 border-b-0"></div>
+                <div class="text-3xl text-[#9A7424] mb-6 text-center"><i class="far fa-envelope-open"></i></div>
+                <h4 class="text-xl font-royal-heading font-bold mb-3 text-center text-[#4A121A]">Digital E-Card</h4>
+                <p class="text-[#4A121A]/80 text-sm text-center leading-relaxed font-serif">विवाह, पास्नी वा जन्मदिनका लागि १ पेजको उच्च क्वालिटीको आकर्षक फोटो निमन्त्रणा कार्ड।</p>
+                <div class="mt-8 pt-4 border-t border-neutral-100 text-center text-lg font-bold text-[#9A7424] font-royal-heading">रु. ४९९/- देखि सुरु</div>
             </div>
             
-            <div class="premium-card-box p-8 relative bg-white border-2 border-[#D4AF37]">
-                <span class="absolute -top-3.5 right-6 royal-maroon-bg text-white text-[10px] px-3 py-1 font-bold uppercase tracking-wider rounded">Most Popular</span>
-                <div class="text-3xl text-[#A67C1E] mb-5"><i class="fas fa-video"></i></div>
-                <h4 class="text-2xl font-serif font-bold mb-3 royal-maroon-text">Premium Video Invite</h4>
-                <p class="text-[#4A121A]/80 text-sm leading-relaxed">३० देखि ६० सेकेन्डको उत्कृष्ट ब्याकग्राउन्ड म्युजिक सहितको भिडियो निमन्त्रणा कार्ड।</p>
-                <div class="mt-6 pt-4 border-t border-neutral-100 text-xl font-bold text-[#A67C1E]">रु. ९९९/- देखि सुरु</div>
+            <div class="invitation-card-frame p-8 rounded-lg border-2 border-[#D8B257]">
+                <div class="card-corner top-3 left-3 border-r-0 border-b-0"></div>
+                <div class="card-corner top-3 right-3 border-l-0 border-b-0"></div>
+                <span class="absolute -top-3.5 left-1/2 transform -translate-x-1/2 royal-wine-bg text-white text-[10px] px-4 py-1 font-royal-heading font-bold tracking-widest rounded-full uppercase">Popular</span>
+                <div class="text-3xl text-[#9A7424] mb-6 text-center"><i class="fas fa-film"></i></div>
+                <h4 class="text-xl font-royal-heading font-bold mb-3 text-center text-[#4A121A]">Premium Video</h4>
+                <p class="text-[#4A121A]/80 text-sm text-center leading-relaxed font-serif">३० देखि ६० सेकेन्डको उत्कृष्ट ब्याकग्राउन्ड म्युजिक सहितको भिडियो निमन्त्रणा कार्ड।</p>
+                <div class="mt-8 pt-4 border-t border-neutral-100 text-center text-lg font-bold text-[#9A7424] font-royal-heading">रु. ९९९/- देखि सुरु</div>
             </div>
             
-            <div class="premium-card-box p-8 bg-white">
-                <div class="text-3xl text-[#A67C1E] mb-5"><i class="fas fa-store"></i></div>
-                <h4 class="text-2xl font-serif font-bold mb-3 royal-maroon-text">Grand Opening Flyer</h4>
-                <p class="text-[#4A121A]/80 text-sm leading-relaxed">नयाँ पसल, RESTURENT वा शोरुम उद्घाटनका लागि व्यावसायिक कर्पोरेट भिडियो र विज्ञापन ब्यानर।</p>
-                <div class="mt-6 pt-4 border-t border-neutral-100 text-xl font-bold text-[#A67C1E]">रु. १,४९९/- देखि सुरु</div>
+            <div class="invitation-card-frame p-8 rounded-lg">
+                <div class="card-corner top-3 left-3 border-r-0 border-b-0"></div>
+                <div class="card-corner top-3 right-3 border-l-0 border-b-0"></div>
+                <div class="text-3xl text-[#9A7424] mb-6 text-center"><i class="fas fa-store bg-clip-text"></i></div>
+                <h4 class="text-xl font-royal-heading font-bold mb-3 text-center text-[#4A121A]">Grand Opening</h4>
+                <p class="text-[#4A121A]/80 text-sm text-center leading-relaxed font-serif">नयाँ पसल, रेस्टुरेन्ट वा शोरुम उद्घाटनका लागि व्यावसायिक कर्पोरेट भिडियो र विज्ञापन ब्यानर।</p>
+                <div class="mt-8 pt-4 border-t border-neutral-100 text-center text-lg font-bold text-[#9A7424] font-royal-heading">रु. १,४९९/- देखि सुरु</div>
             </div>
         </div>
     </section>
 
-    <section class="max-w-6xl mx-auto px-4 py-20 border-t border-[#D4AF37]/20">
-        <div class="text-center mb-16">
-            <h3 class="text-3xl md:text-4xl font-serif font-bold royal-maroon-text">हाम्रा कामहरू (Recent Portfolio)</h3>
-            <p class="text-[#4A121A]/70 mt-2 italic font-serif">हामीले ग्राहकहरूका लागि तयार पारेका केही नमुनाहरू</p>
+    <section class="max-w-6xl mx-auto px-4 py-24 border-t border-[#D8B257]/20">
+        <div class="text-center mb-20">
+            <h3 class="text-3xl md:text-4xl font-royal-heading font-bold text-[#4A121A]">हाम्रा कामहरू</h3>
+            <div class="h-[1px] bg-gradient-to-r from-transparent via-[#D8B257] to-transparent mt-3 w-40 mx-auto"></div>
+            <p class="text-[#4A121A]/70 mt-3 italic text-base">हामीले ग्राहकहरूका लागि तयार पारेका केही नमुनाहरू</p>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div class="premium-card-box flex flex-col justify-between bg-white p-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            <div class="invitation-card-frame p-6 rounded-lg flex flex-col justify-between">
                 <div>
-                    <span class="text-xs text-[#A67C1E] font-bold uppercase tracking-wider">Wedding Video</span>
-                    <h5 class="text-lg font-serif font-bold mt-2 royal-maroon-text">Anusha and Rohit's wedding card</h5>
+                    <span class="text-xs text-[#9A7424] font-royal-heading font-bold tracking-wider block mb-2">Wedding Video</span>
+                    <h5 class="text-xl font-serif font-bold text-[#4A121A] leading-snug">Anusha and Rohit's wedding card</h5>
                 </div>
-                <div class="mt-6">
-                    <a href="https://wa.me/9779811546527" target="_blank" class="royal-maroon-bg text-white block text-center text-xs font-bold py-3 rounded tracking-wide uppercase shadow-sm">Explore Packages</a>
+                <div class="mt-8">
+                    <a href="https://wa.me/9779811546527" target="_blank" class="royal-wine-bg text-white block text-center text-xs font-royal-heading font-bold py-3 rounded tracking-widest uppercase">Explore Packages</a>
                 </div>
             </div>
 
-            <div class="premium-card-box flex flex-col justify-between bg-white p-6">
+            <div class="invitation-card-frame p-6 rounded-lg flex flex-col justify-between">
                 <div>
-                    <span class="text-xs text-[#A67C1E] font-bold uppercase tracking-wider">Grand Opening</span>
-                    <h5 class="text-lg font-serif font-bold mt-2 royal-maroon-text">Huba Tea Shop, Butwal</h5>
+                    <span class="text-xs text-[#9A7424] font-royal-heading font-bold tracking-wider block mb-2">Grand Opening</span>
+                    <h5 class="text-xl font-serif font-bold text-[#4A121A] leading-snug">Huba Tea Shop, Butwal</h5>
                 </div>
-                <div class="mt-6">
-                    <a href="https://wa.me/9779811546527" target="_blank" class="royal-maroon-bg text-white block text-center text-xs font-bold py-3 rounded tracking-wide uppercase shadow-sm">Explore Packages</a>
+                <div class="mt-8">
+                    <a href="https://wa.me/9779811546527" target="_blank" class="royal-wine-bg text-white block text-center text-xs font-royal-heading font-bold py-3 rounded tracking-widest uppercase">Explore Packages</a>
                 </div>
             </div>
 
-            <div class="premium-card-box overflow-hidden flex flex-col justify-between bg-white">
+            <div class="invitation-card-frame rounded-lg overflow-hidden flex flex-col justify-between">
                 <div>
-                    <img src="https://i.ibb.co/JRXMg3x1/Black-and-Gold-Elegant-Grand-Opening-Invitation-20260525-190655-0000.jpg" class="w-full h-auto object-cover border-b border-neutral-100" alt="Ayus & Co. Grand Opening">
+                    <div class="w-full aspect-[4/3] bg-neutral-100 overflow-hidden border-b border-[#D8B257]/20">
+                        <img src="https://i.ibb.co/JRXMg3x1/Black-and-Gold-Elegant-Grand-Opening-Invitation-20260525-190655-0000.jpg" class="w-full h-full object-cover object-top" alt="Ayus & Co. Grand Opening">
+                    </div>
                     <div class="p-6">
-                        <span class="text-xs text-[#A67C1E] font-bold uppercase tracking-wider">Corporate Poster</span>
-                        <h5 class="text-lg font-serif font-bold mt-2 royal-maroon-text">Ayus & Co. Grand Opening</h5>
+                        <span class="text-xs text-[#9A7424] font-royal-heading font-bold tracking-wider block mb-2">Corporate Poster</span>
+                        <h5 class="text-xl font-serif font-bold text-[#4A121A] leading-snug">Ayus & Co. Grand Opening</h5>
                     </div>
                 </div>
                 <div class="px-6 pb-6">
-                    <a href="https://wa.me/9779811546527" target="_blank" class="royal-maroon-bg text-white block text-center text-xs font-bold py-3 rounded tracking-wide uppercase shadow-sm">Explore Packages</a>
+                    <a href="https://wa.me/9779811546527" target="_blank" class="royal-wine-bg text-white block text-center text-xs font-royal-heading font-bold py-3 rounded tracking-widest uppercase">Explore Packages</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-white/40 border-t border-b border-[#D4AF37]/20 py-24 px-4 text-center">
+    <section class="bg-white/40 border-t border-b border-[#D8B257]/30 py-24 px-4 text-center backdrop-blur-xs">
         <div class="max-w-4xl mx-auto">
-            <h4 class="text-2xl md:text-4xl font-serif font-bold royal-maroon-text leading-snug">के तपाईं पनि आफ्नो विशेष दिनलाई डिजिटल र आधुनिक बनाउन तयार हुनुहुन्छ?</h4>
-            <p class="text-[#4A121A]/80 mt-4 max-w-xl mx-auto text-sm md:text-base font-serif italic">हाмиलाई व्हाट्सएपमा म्यासेज गरी आफ्नो उत्सवको मिति र थिम पठाउनुहोस्। हामी २४ घण्टाभित्र रोयल डिजाइन तैयार पारिदिनुहुनेछ।</p>
-            <div class="mt-10">
-                <a href="https://wa.me/9779811546527" target="_blank" class="royal-maroon-bg text-white px-10 py-4 rounded font-bold text-lg hover:brightness-110 transition inline-flex items-center justify-center gap-3 shadow-md">
+            <h4 class="text-2xl md:text-4xl font-serif font-bold text-[#4A121A] leading-snug">के तपाईं पनि आफ्नो विशेष दिनलाई डिजिटल र आधुनिक बनाउन तयार हुनुहुन्छ?</h4>
+            <p class="text-[#4A121A]/80 mt-4 max-w-xl mx-auto text-base italic leading-relaxed">हामीलाई व्हाट्सएपमा म्यासेज गरी आफ्नो उत्सवको मिति र थिम पठाउनुहोस्। हामी २४ घण्टाभित्र रोयल डिजाइन तैयार पारिदिनुहुनेछ।</p>
+            <div class="mt-12">
+                <a href="https://wa.me/9779811546527" target="_blank" class="royal-wine-bg text-white px-12 py-4.5 rounded font-royal-heading text-sm font-bold tracking-widest uppercase transition inline-flex items-center justify-center gap-3">
                     <i class="fab fa-whatsapp text-xl"></i> Chat via WhatsApp
                 </a>
             </div>
         </div>
     </section>
 
-    <footer class="text-center py-12 text-xs text-[#4A121A]/60 tracking-widest font-serif">
+    <footer class="text-center py-14 text-xs text-[#4A121A]/60 tracking-[0.2em] font-royal-heading border-t border-[#D8B257]/10">
         <p>&copy; 2026 Digital Nimantran. All Rights Reserved.</p>
-        <p class="mt-2 text-[#A67C1E] font-bold">Bhairahawa, Nepal | Powered by Digital Nimantran Team</p>
+        <p class="mt-3 text-[#9A7424] font-bold">Bhairahawa, Nepal | Powered by Digital Nimantran Team</p>
     </footer>
 
 </body>
